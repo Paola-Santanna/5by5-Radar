@@ -25,7 +25,7 @@ namespace Repository
         private MongoCollection<BsonDocument> _collection;
         public RepositoryMongo()
         {
-            string connMongo = "mongodb://localhost:27017";
+            string connMongo = "connection string";
             _client = new MongoClient(connMongo);
             var database = _client.GetDatabase("Radar");
             var _collection = database.GetCollection<BsonDocument>("Radares");

@@ -11,7 +11,7 @@ namespace Repository
          * 
          * Essa classe ira ler e gravar os dados no SQL Server
          */
-        string srConn = @"Data Source=127.0.0.1;Initial Catalog=Radar;User Id=SA;Password=SqlServer2019!;TrustServerCertificate=True";
+        string srConn = "connection string";
         SqlConnection conn;
         public RepositorySQL() 
         {
