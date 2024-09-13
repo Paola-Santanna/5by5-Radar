@@ -14,7 +14,7 @@ namespace Repository
 
         public static List<Radar> GetData()
         {
-            StreamReader r = new StreamReader(@"C:\Users\Paola\Downloads\dados_dos_radares.json");
+            StreamReader r = new StreamReader("caminho do arquivo");
             string jsonString = r.ReadToEnd();
 
             //Processo de descerialização 
